@@ -1,0 +1,13 @@
+
+<h1>Appointment Confirmation</h1>
+    <p>Please be informed that your appointmenhas been booked as follwing:</p>
+    <div class="container">
+    <table *ngFor="let user of booklist"> //fetchAllapt
+    <tr><input  placeholder="Patient name"> <input placeholder="{{user.patientname}}"></tr>
+    <tr><input  placeholder="Patient Medical Issue"> <input placeholder="{{user.patientmedicalissue}}"></tr>
+    <tr><input  placeholder="Hospital Branch"> <input placeholder="{{user.hospitalbranch}}"></tr>
+    <tr><input  placeholder="Doctor Specialist"><input placeholder="{{user.doctorspecialist}}"></tr>
+    <tr><input  placeholder="Visit Date"> <input placeholder="{{user.visitdate}}"></tr>
+
+</table>
+</div>

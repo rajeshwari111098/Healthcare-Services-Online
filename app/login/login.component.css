@@ -1,0 +1,23 @@
+label,input{
+    position: relative;
+    left: 500px;
+    margin: 10px;
+}
+button{
+    position: relative;
+    left: 600px;
+    top: 10px;
+}
+h1{
+    position: relative;
+    left: 600px;
+}
+p{
+    position: relative;
+    left: 550px;
+}
+span{
+    color:red;
+    font-size: 20px;
+    font-weight: 600;
+}

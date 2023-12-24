@@ -1,0 +1,29 @@
+label,input{
+    position: relative;
+    left: 630px;
+    margin: 10px;
+}
+button{
+    position: relative;
+    left: 680px;
+    top: 10px;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+}
+h1{
+    position: relative;
+    left: 650px;
+}
+p{
+    color: red;
+    position: relative;
+    left: 635px;
+    
+}
+span{
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+}

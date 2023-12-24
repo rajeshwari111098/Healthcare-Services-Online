@@ -1,0 +1,18 @@
+<div class="container">
+  <ul>
+  <li><a routerLinkActive="selectedLink" routerLink="Home">home</a></li>
+  <li><a routerLinkActive="selectedLink" routerLink="About">About</a></li>
+  <li><a routerLinkActive="selectedLink" routerLink="Register">Register</a></li>
+  <li><a routerLinkActive="selectedLink" routerLink="Login">Login</a></li>
+  <li><a routerLinkActive="selectedLink" routerLink="Bookappointment" *ngIf="'user!=null'">BookAppointment</a></li>
+  <li><a routerLinkActive="selectedLink" routerLink="Medicalservices">Medicalservices</a></li>
+  <li><a routerLinkActive="selectedLink" routerLink="Contact">Contact</a></li>
+  <li><a routerLinkActive="selectedLink" routerLink="Summary">Summary</a></li>
+  
+</ul>
+</div>
+<div>
+  <router-outlet></router-outlet>
+</div>
+
+                                                                           

@@ -1,0 +1,73 @@
+.Contact{
+    position: relative;
+    left: 20px;
+}
+.icon1{
+    position: absolute;
+    top: 160px;
+    left: 300px;
+}
+.icon2{
+    position: absolute;
+    top: 220px;
+    left: 300px;
+}
+.icon3{
+    position: absolute;
+    top: 280px;
+    left: 300px;
+}
+.icon4{
+    position: absolute;
+    top: 160px;
+    left: 700px;
+}
+.icon5{
+    position: absolute;
+    top: 220px;
+    left: 700px;
+}
+.icon6{
+    position: absolute;
+    top: 280px;
+    left: 700px;
+}
+.icon7{
+    position: absolute;
+    top: 160px;
+    left: 1040px;
+}
+.icon8{
+    position: absolute;
+    top: 220px;
+    left: 1040px;
+}
+.icon9{
+    position: absolute;
+    top: 280px;
+    left: 1040px;
+}
+.drop{
+    position: absolute;
+    bottom: 300px;
+    left: 20px;
+}
+input{
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    top: 200px;
+    
+}
+.msg{
+    height: 100px;
+}
+button{
+    background-color: blue;
+    border-radius: 10px;
+    position: relative;
+    left: 10px;
+    top: 200px;
+    width: 180px;
+    height: 40px;
+}

@@ -1,0 +1,13 @@
+<form [formGroup]="regForm" (ngSubmit)="onSubmit()">
+    <h1>Sign Up</h1>
+    <label>First name<span>*</span></label><br>
+    <input type="text" placeholder="First name" formControlName="firstname"><br>
+    <label>Last name<span>*</span></label><br>
+    <input type="text" placeholder="Last name" formControlName="lastname"><br>
+    <label>Email address<span>*</span></label><br>
+    <input type="text" placeholder="Enter Email" formControlName="email"><br>
+    <p class="req" *ngIf="((regForm.controls.email.valid)&&(regForm.controls.email.touched)||(regForm.controls.email.dirty))">Your email will be a username</p>
+    <label>Password<span>*</span></label><br>
+    <input type="password" placeholder="Enter password" formControlName="password"><br>
+    <button type="submit">Sign Up</button>
+</form>

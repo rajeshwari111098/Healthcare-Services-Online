@@ -1,0 +1,18 @@
+ul {
+    width: 1000px;
+    height: 80px;
+    display: flex;
+    list-style: none;
+    border: 2px solid red;
+    position: relative;
+    left: 200px;
+    
+}
+ul li{
+    margin: 10px;
+    padding: 20px;
+    width: 100px;
+    height: 10px;
+   
+    
+}

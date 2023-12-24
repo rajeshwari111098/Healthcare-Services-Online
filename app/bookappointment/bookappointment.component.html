@@ -1,0 +1,41 @@
+<form [formGroup]="bookForm">
+    <div>
+    <label>Patient name<span>*</span></label>
+    <input type="text" formControlName="patientname"><br>
+    </div>
+    <div>
+    <label>Patient DOB<span>*</span></label>
+    <input type="date" formControlName="patientdob"><br>
+    </div>
+    <div>
+    <label>Patient Medical issue</label>
+    <input type="text" formControlName="patientmedicalissue"><br>
+    </div>
+    <div>
+    <label>Select Hospital branch<span>*</span></label>
+    <select name="Branches" formControlName="hospitalbranch"><br>
+        <option *ngFor="let b of Branches" [value]="b.name">{{b.name}}</option>
+    </select><br>
+    </div>
+    <div>
+    <label>Doctor Specialist<span>*</span></label>
+    <select name="Specialists" formControlName="doctorspecialist">
+        <option *ngFor="let s of Specialists" [value]="s.names">{{s.names}}</option>
+    </select><br>
+    </div>
+    <div>
+    <label>Visit date<span>*</span></label>
+    <input type="date" formControlName="visitdate"><br>
+    </div>
+    <div>
+    <label>Email<span>*</span></label>
+    <input type="text" formControlName="email"><br>
+    </div>
+    <div>
+    <label>Mobile number<span>*</span></label>
+    <input type="text" formControlName="mobilenumber"><br>
+    </div>
+    <div>
+    <button (click)="onSubmit()">Book Appointment</button>
+    </div>
+</form>

@@ -1,0 +1,14 @@
+
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+    <div class="container">
+        <h1>Login</h1>
+        <p>Please login to make appointment</p>
+    <label>Username<span>*</span></label>
+    <input type="text" placeholder="Username" formControlName="username"><br>
+    <label>Password<span>*</span></label>
+    <input type="password" placeholder="Password" formControlName="password"><br>
+    <button type="submit">Login</button>
+</div>
+
+</form>
+
